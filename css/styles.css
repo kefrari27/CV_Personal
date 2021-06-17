@@ -1,0 +1,73 @@
+/* Configuración 
+Color_1: #00E0FF
+Color_2: #0028FF
+Tipografia_1: 'Halant', serif;
+Tipografia_2: 'Nunito Sans', sans-serif;
+*/
+
+/* Estilos del Body */
+
+body {
+  background-image: url(../img/blue\ wavy_1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Estilos del Header */
+
+header {
+  height: 90px;
+  /* background-image: url(../img/blue\ wavy_1.png);
+  background-size: cover; */
+}
+
+.menu ul li {
+  list-style: none;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: #0028FF;
+}
+
+.menu ul li a {
+  text-decoration: none;
+}
+
+/* Estilos del main */
+
+main img {
+  height: 450px;
+}
+
+main h1 {
+  text-align: right;
+  color: #0028FF;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+main h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  text-align: right;
+  color: #0028FF;
+}
+
+/* Estilos del footer */
+
+footer {
+  background-color: #0028FF;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Halant', serif;
+  font-weight: 700;
+  color: #00E0FF;
+}
+
+footer i {
+  color: #00E0FF;
+}
