@@ -1,62 +1,86 @@
-/* Configuración 
-Color_1: #00E0FF
-Color_2: #0028FF
-Tipografia_1: 'Halant', serif;
-Tipografia_2: 'Nunito Sans', sans-serif;
-*/
+/* Configuración*/
+
+:root {
+  --cian: #00E0FF;
+  --azul_rey: #0028FF;
+  --haland: 'Halant', serif;
+  --nunito: 'Nunito Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 /* Estilos del Body */
 
 body {
   background-image: url(../img/blue\ wavy_1.png);
-  background-size: cover;
   background-position: center;
 }
 
 /* Estilos del Header */
 
 header {
-  height: 90px;
-  /* background-image: url(../img/blue\ wavy_1.png);
-  background-size: cover; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 10vh
 }
 
-.menu ul li {
+header .menu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .menu ul li {
   list-style: none;
+}
+
+header .menu ul li a {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
-  font-size: 22px;
-  text-align: center;
-  color: #0028FF;
-}
-
-.menu ul li a {
+  font-size: 1.2rem;
   text-decoration: none;
+  color: var(--azul_rey);
+  margin: 0 1rem;
 }
 
 /* Estilos del main */
 
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+}
+
 main img {
-  height: 450px;
+  max-width: 25%;
+  border-radius: 3rem;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 main h1 {
-  text-align: right;
-  color: #0028FF;
+  text-align: left;
+  color: var(--cian);
   font-weight: 700;
-  font-size: 35px;
+  font-size: 4rem;
 }
 
 main h2 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
-  text-align: right;
-  color: #0028FF;
+  text-align: left;
+  color: var(--azul_rey);
 }
 
 /* Estilos del footer */
 
 footer {
+  height: 10vh;
   background-color: #0028FF;
 }
 
