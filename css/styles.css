@@ -63,19 +63,21 @@ main img {
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-main h1 {
+main article h1 {
   text-align: left;
   color: var(--cian);
   font-weight: 700;
   font-size: 4rem;
 }
 
-main h2 {
+main article h2 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
   text-align: left;
   color: var(--azul_rey);
 }
+
+main article 
 
 /* Estilos del footer */
 
